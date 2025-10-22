@@ -1,14 +1,16 @@
-<div style="
+<div style=" 
     display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center; 
     font-family: sans-serif; 
     color: #c0c0c0; 
 ">
-    <img src="assets/icon.png" alt="Deep-DxSearch Logo" width="50" style="
+    <img src="assets/icon.png" alt="Deep-DxSearch Logo" width="50" style=" 
         margin-right: 10px; 
         flex-shrink: 0;
     ">
-    <h1 style="
+    <h1 style=" 
         margin: 0; 
         font-size: 2.5em; 
         font-weight: bold; 
