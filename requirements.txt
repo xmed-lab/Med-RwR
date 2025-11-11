@@ -1,0 +1,11 @@
+transformers==4.51.3
+flash-attn==2.7.4.post1
+qwen-vl-utils==0.0.10
+scikit-learn==1.1.2
+scipy==1.15.3
+scispacy==0.5.5
+vllm==0.7.3
+wandb==0.20.1
+numpy==1.26.4
+faiss-gpu==1.7.2
+flask
