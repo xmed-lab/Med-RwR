@@ -2,7 +2,7 @@
 
 [![Arxiv](https://img.shields.io/badge/paper-A82F27?style=for-the-badge&logo=arxiv)](https://www.arxiv.org/abs/2510.18303) [![Model](https://img.shields.io/badge/model-cc8800?style=for-the-badge&logo=huggingface)](https://huggingface.co/Luxuriant16/Med-RwR)
 
-# 📍 Overview
+## 📍 Overview
 Med-RwR is **the first Multimodal Medical
 Reasoning-with-Retrieval framework**, which proactively retrieves external knowledge by querying observed symptoms or domain-specific medical concepts during reasoning. This approach encourages the model to ground its diagnostic analysis in verifiable external information retrieved after analyzing both visual and textual inputs.
 
@@ -14,12 +14,12 @@ Reasoning-with-Retrieval framework**, which proactively retrieves external knowl
 
 </div>
 
-# 🔥 News
+## 🔥 News
 - [2025/11] Demo codes released.
 - [2025/11] The model is released on [HuggingFace](https://huggingface.co/Luxuriant16/Med-RwR).
 - [2025/10] The paper is available on [arXiv](https://arxiv.org/abs/2510.18303).
 
-# 🛠️ Environment Installation
+## 🛠️ Environment Installation
 The required dependencies are as follows.
 ```bash
 conda create -n medrwr python==3.10
@@ -34,8 +34,8 @@ git clone https://github.com/xmed-lab/Med-RwR.git
 pip install -e .
 ```
 
-# ⚡️ Quick Start
-## Start the Retriever
+## ⚡️ Quick Start
+### Start the Retriever
 The knowledge base is available at [HuggingFace](https://huggingface.co/Luxuriant16/Med-RwR/tree/main/knowledge_base). Please download from the link and put inside `retrieve/knowledge_base`.
 
 Start the retriever, where we employ [BGE-M3](https://huggingface.co/BAAI/bge-m3) as an example:
@@ -43,7 +43,7 @@ Start the retriever, where we employ [BGE-M3](https://huggingface.co/BAAI/bge-m3
 python retrieve/retrieve.py
 ```
 
-## Inference
+### Inference
 Run the demo code:
 ```python
 python demo.py
@@ -51,10 +51,10 @@ python demo.py
 Update the question and image path in the code with your own values before running it.
 
 
-# 🙏 Acknowledgements
+## 🙏 Acknowledgements
 We refer to the codes from [SWIFT](https://github.com/modelscope/ms-swift), [R1-Searcher](https://github.com/RUCAIBox/R1-Searcher), [ZeroSearch](https://github.com/Alibaba-NLP/ZeroSearch). Thank the authors for their contribution to the community.
 
-# 📚 Citation
+## 📚 Citation
 If you find this project useful, please consider citing:
 ```
 @article{wang2025proactive,
