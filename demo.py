@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import os
 import sys
 from typing import List, Dict, Any
@@ -47,8 +46,6 @@ def build_messages(user_text, image):
 
 
 def run_demo(model=None, message=None, image=None, max_new_tokens=512, temperature=0.6, top_p=None, top_k=None, repetition_penalty=None, attn_impl="flash_attn", device_map="cuda"):
-    # Built-in defaults so caller can just run run_demo() without args
-
     engine = PtEngine(
         model_id_or_path=model,
         attn_impl=attn_impl,
