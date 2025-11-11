@@ -39,13 +39,13 @@ pip install -e .
 The knowledge base is available at [HuggingFace](https://huggingface.co/Luxuriant16/Med-RwR/tree/main/knowledge_base). Please download from the link and put inside `retrieve/knowledge_base`.
 
 Start the retriever, where we employ [BGE-M3](https://huggingface.co/BAAI/bge-m3) as an example:
-```python
+```bash
 python retrieve/retrieve.py
 ```
 
 ### Inference
 Run the demo code:
-```python
+```bash
 python demo.py
 ```
 Update the question and image path in the code with your own values before running it.
