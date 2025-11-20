@@ -718,7 +718,6 @@ class PtEngine(InferEngine):
             with open("similarity_dict.json", "r") as f:
                 self.similarity_dict = json.load(f)
             # select low conf, and add knowledge retrieved from multimodal database
-            finished_all[0].choices[0].logprobs[0]['prob']
             new_inputs_idxes = []
 
             for ii, (input_idx, finished_item) in enumerate(zip(all_input_idxes, finished_all)):
